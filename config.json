@@ -1,0 +1,10 @@
+﻿{
+    "database": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "rd_app",
+        "dialect": "mysql"
+    },
+    "secret": "fnknwdfnnnfsdklnfslkfsdkfnslkfnksnfnsllsfkfsnfnklsnflnleoiw"
+}
