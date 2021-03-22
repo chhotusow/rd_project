@@ -13,6 +13,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
+
+app.get('/api/test', (req, res) => { 
+    res.send('Hello');
+});
+
 // api routes
 app.use('/api', require('./controllers/users.controller'));
 app.use('/api',require('./controllers/plan.controller'));
